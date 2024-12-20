@@ -1,0 +1,74 @@
+<?PHP
+session_start();
+date_default_timezone_set("Asia/Kuala_Lumpur");
+?>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="style.css">
+<title>Legacy Kueh System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+
+
+
+
+
+<!--------Title -->
+<body class="w3-light-grey w3-padding">
+
+    <!--------Menu -->
+    
+    <div class="w3-bar w3-card-4 w3-metro-darken w3-round-xlarge w3-padding">
+    
+        <a href="index.php" style="height:auto;width:60%;">
+        <div class="w3-col w3-container" style="width:10%;"></div>
+            <img class="w3-col w3-margin w3-row-padding" style="height:60px; width: 155px;" src='sources/logo.png'>
+        </a>
+        
+        <div class="w3-col" style="width:65%">
+            <div style="height:25px;">
+             
+    
+            </div>
+           
+            <a href="helppage.php" class="w3-bar-ite w3-button w3-right w3-round" ><img src='sources/new/help-web-button.png' style="padding-bottom:3px; text-align:center; width:15px"> Help</a>
+    
+            <a href="about.php" class="w3-bar-item w3-button w3-right w3-round" ><img src='sources/new/information-button.png' style="padding-bottom:3px;text-align:center; width:15px"> About</a>
+        
+    <?PHP 
+    if(empty($_SESSION['customerName']))  //database
+    {
+    ?>
+    
+        <div class="w3-dropdown-hover w3-right">
+            <button class="w3-button w3-round" ><img src='sources/new/user-shape.png' style="padding-bottom:3px;text-align:center; width:15px"> Login/Register</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="cust_regis.php" class="w3-bar-item w3-button">Sign up</a>
+                    <a href="cust_login.php" class="w3-bar-item w3-button">Login</a>
+                </div>
+        </div>
+    <?PHP
+        }
+        else
+        {   
+    ?>
+        <a href="logout.php" class="w3-bar-item w3-button w3-right w3-round" ><img src='sources/new/logout.png' style="padding-bottom:3px;text-align:center; width:15px"> Log Out</a>
+           
+        <a href='myaccount.php' class="w3-bar-item w3-right w3-buttonw3-round "><img src='sources/new/user-shape.png' style="padding-bottom:3px;text-align:center; width:15px"> 
+           
+            <?php
+            echo "Hi, ".$_SESSION['customerName'];
+            ?>
+        </a>
+    
+    <?PHP
+    }
+    ?>
+        <a href="index.php" class="w3-bar-item w3-button w3-right w3-round" ><img src='sources/new/home.png' style="padding-bottom:3px;text-align:center; width:18px"> Home</a>
+        </div>
+    </div>
+    </div>
+    </div>

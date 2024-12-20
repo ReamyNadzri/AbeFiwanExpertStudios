@@ -1,0 +1,157 @@
+/* Global Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Hero Styles */
+  
+  .hero {
+    background-image: url('hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  
+  .hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #666;
+  }
+  
+  /* Cars Styles */
+  
+  .cars {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .cars h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  .car {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  .car img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .car h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .car p {
+    font-size: 18px;
+    margin: 0;
+    color: #666;
+  }
+  
+  .car button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .car button:hover {
+    background-color: #666;
+  }
+  
+  /* About Us Styles */
+  
+  .about-us {
+    padding: 50px 0;
+    background-color: #333;
+    color: #fff;
+  }

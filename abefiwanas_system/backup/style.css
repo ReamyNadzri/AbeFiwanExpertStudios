@@ -1,0 +1,116 @@
+/* this is external css file*/
+
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+.dark-mode {
+  --background-color: black;
+  --text-color: white;
+}
+
+
+
+
+
+
+
+.center { display: block; margin-left: auto; margin-right: auto; width: 50%; }
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    background-color: #666;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #999;
+  }
+  
+  .banner {
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    background-color: #ff5e3a;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff2a10;
+  }
+  
+  .featured-cars {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .car {
+    margin: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px
+  }
