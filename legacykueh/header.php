@@ -11,8 +11,9 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
             <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+        </head>
             
-            <div class="" style="background-color: #FFFAF0;">
+        <body class="" style="background-color: #FFFAF0;">
 
                 <style>
                     .button:hover{
@@ -146,10 +147,11 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
                                         ?>
                                     
                                 </div>
-                            </div>
                             <?PHP 
                                 }
-                            ?> 
+                            ?>
+                            </div>
+                             
 
                             <div class="w3-round-large" style="height: 92%; margin-top: 4%">
                         
@@ -165,9 +167,29 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
 
 
                                     <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
+
                                 </div> <!--must include in next page-->
                             </div>
                         </div>
                     </div>      
                 </div>
-        </head><!--until here-->
+        </body><!--until here-->
