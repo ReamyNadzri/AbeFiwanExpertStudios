@@ -71,7 +71,7 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
                     /* For fixed header styling */
                     .fixed-header {
                         position: fixed;
-                        top: 0;
+                        top: 3px;
                         width: 100%;
                         background-color: #333;
                         color: white;
@@ -86,7 +86,7 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
                 </style>
                 
                 
-                <div class="" style="height: 18px;width: 100%; position: fixed; background-color: #FFFAF0; z-index: 0;" ></div>
+                <div class="" style="height: 18px;width: 100%; position: fixed; background-color: #FFFAF0; z-index: 1000;" ></div>
                 <div class="w3-row">
 
                 
@@ -95,7 +95,7 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
 
 
                         <!--sidebar of kueh system-->
-                        <div class="sidebar w3-container w3-border w3-round-large w3-cell w3-white" style="width: 15%; height:98%;">
+                        <div class="sidebar w3-container w3-border w3-round-large w3-cell w3-white" style="width: 15%; height:98%; z-index: 1001;">
                         
                                 <img class="" style="margin-top:20px; margin-left: 20px;" src="sources/header/logo.png" alt="" width="50px">
                                 <span></span>
@@ -128,7 +128,7 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
                         <div class="w3-round-large w3-border" style="margin-left:15.6%; z-index:9999;"> <!--main content-->
                             <!--TOP NAVIGATION-->
                             
-                            <div class="w3-container w3-border-top w3-round-large w3-rest w3-white w3-row fixed-header" style="width: 83.4%; padding: 8px;">
+                            <div class="w3-container w3-border-top w3-round-large w3-rest w3-white w3-row fixed-header" style="width: 83.4%; margin-top: 8px; padding:8px">
                                 
                                 <div class="w3-cell w3-left" style="width:35%;"> <!--IF CONDITION HERE (search hidden)-->
 
@@ -190,7 +190,10 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
                                     <!--CONTENT START HERE-->
                                 <div class="w3-container w3-white" style="margin-top:5px;width: 100%; height: 100%;">
 
-                                    <h1>All contents must be inserted here</h1>
+                                <div class="w3-panel w3-yellow w3-border w3-animate-fading">
+                                    <h3>Development Phase Notification</h3>
+                                    <p>This website is currently under development. Some features may not be fully functional or available at this time. We appreciate your understanding and welcome your feedback to improve the platform.</p>
+                                </div>
                                     
 
 

@@ -14,8 +14,8 @@ include ('header.php');
         <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
 
         <div class="w3-row">
-            <div class="w3-col s1 w3-green w3-left" style="height: 10%;">a</div>
-            <div class="w3-col s1 w3-green w3-right" style="height: 10%;">a</div>
+            <div class="w3-col s1 w3-text-white w3-left" style="width: 10%; height: 10%">/</div>
+            <div class="w3-col s1 w3-text-white w3-right" style="width: 10%; height: 10%">/</div>
             <div class="w3-rest w3-white" style="">
 
 
@@ -169,9 +169,19 @@ include ('header.php');
             
         </div>
 
+        
+<?php 
+          include ('footer.php'); 
+          include ('popup.php'); 
+        ?>
+
+
+
                                 </div> <!--must include in next page-->
                             </div>
                         </div>
                     </div>      
                 </div>
         </body><!--until here-->
+
+        
