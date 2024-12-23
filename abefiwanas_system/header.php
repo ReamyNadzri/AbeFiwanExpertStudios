@@ -76,8 +76,8 @@ w3-saya {
 
 <div class="w3-bar w3-border w3-card-4">
 
-    <a href="index.php" style="height:auto;width:60%;padding">
-    <div class="w3-col w3-container" style="width:10%"></div>
+    <a href="index.php" style="height:auto;width:60%;">
+    <div class="w3-col w3-container" style="width:10%;"></div>
         <img class="w3-col w3-margin w3-row-padding" style="height:60px; width: 155px;" src='sources/logo.png'>
     </a>
     
@@ -87,7 +87,7 @@ w3-saya {
 
         </div>
        
-        <a href="helppage.php" class="w3-bar-ite w3-button w3-right" ><img src='sources/new/help-web-button.png' style="padding-bottom:3px; text-align:center; width:15px"> Help</a>
+        <a href="helppage.php" class="w3-bar-item w3-button w3-right" ><img src='sources/new/help-web-button.png' style="padding-bottom:3px; text-align:center; width:15px"> Help</a>
 
         <a href="about.php" class="w3-bar-item w3-button w3-right" ><img src='sources/new/information-button.png' style="padding-bottom:3px;text-align:center; width:15px"> About</a>
     

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image with Text</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .image-container {
+            position: relative; /* Parent container for positioning */
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .image-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .image-text {
+            position: absolute; /* Overlay text */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Text color */
+            font-size: 2em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional shadow */
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* For fixed header styling */
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            z-index: 1000;
+        }
+
+        .content {
+            margin-top: 80px; /* Push content below fixed header */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fixed Header -->
+    <div class="fixed-header">
+        Fixed Header Content
+    </div>
+
+    <!-- Main Content -->
+    <div class="content w3-center">
+        <div class="image-container">
+            <img src="sources/index/chekMekMolek.jpg" alt="Sample Image">
+            <div class="image-text">Your Text Here</div>
+        </div>
+
+        <div class="w3-margin-top">
+            <p>Additional content below the image...</p>
+        </div>
+    </div>
+
+</body>
+</html>

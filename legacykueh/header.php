@@ -44,11 +44,43 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
                         font-family: 'Product Sans', sans-serif; 
                     
                     }
-                    .topnavi {
-                        border-top: 2px solid black; /* Creates a top border */
-                        border-left: none;          /* Ensures no border on the left */
-                        border-right: none;         /* Ensures no border on the right */
-                        border-bottom: none;        /* Ensures no border on the bottom */
+                    .image-container {
+                        position: relative; /* Parent container for positioning */
+                        width: 100%;
+                        max-width: 800px;
+                        margin: auto;
+                    }
+
+                    .image-container img {
+                        width: 100%;
+                        display: block;
+                    }
+
+                    .image-text {
+                        position: absolute; /* Overlay text */
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        color: white; /* Text color */
+                        font-size: 2em;
+                        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional shadow */
+                        font-weight: bold;
+                        text-align: center;
+                    }
+
+                    /* For fixed header styling */
+                    .fixed-header {
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        background-color: #333;
+                        color: white;
+                        padding: 10px 20px;
+                        z-index: 1000;
+                    }
+
+                    .content {
+                        margin-top: 80px; /* Push content below fixed header */
                     }
                     
                 </style>
@@ -59,7 +91,7 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
 
                 
                     
-                    <div class="w3-round-large w3-row" style="margin:10px;">
+                    <div class="w3-round-large w3-row" style="margin:10px; z-index:0">
 
 
                         <!--sidebar of kueh system-->
@@ -93,10 +125,10 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
 
                         </div>
 
-                        <div class="w3-round-large w3-border" style="margin-left:15.6%;"> <!--main content-->
+                        <div class="w3-round-large w3-border" style="margin-left:15.6%; z-index:9999;"> <!--main content-->
                             <!--TOP NAVIGATION-->
                             
-                            <div class="w3-container w3-border-top w3-round-large w3-rest w3-white w3-row " style="width: 83.4%; position: fixed; padding: 8px;">
+                            <div class="w3-container w3-border-top w3-round-large w3-rest w3-white w3-row fixed-header" style="width: 83.4%; padding: 8px;">
                                 
                                 <div class="w3-cell w3-left" style="width:35%;"> <!--IF CONDITION HERE (search hidden)-->
 
@@ -165,31 +197,4 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
 
 
 
-
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-                                    <h3>The all /div after the content must be copied extra added after include the header.php in content pages</h3>
-
-                                </div> <!--must include in next page-->
-                            </div>
-                        </div>
-                    </div>      
-                </div>
-        </body><!--until here-->
+                                

@@ -1,3 +1,7 @@
+<?php 
+include ('header.php'); 
+//include ('popup.php'); 
+?>
 
 
 
@@ -10,8 +14,8 @@
         <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
 
         <div class="w3-row">
-            <div class="w3-cell w3-green w3-left" style="width: 9%; height: 10%;">sdff</div>
-            <div class="w3-cell w3-green w3-right" style="width: 10%;  height: 10%;">sdfdsd</div>
+            <div class="w3-col s1 w3-green w3-left" style="height: 10%;">a</div>
+            <div class="w3-col s1 w3-green w3-right" style="height: 10%;">a</div>
             <div class="w3-rest w3-white" style="">
 
 
@@ -31,8 +35,8 @@
                 <hr>
                 <h3 style="margin-left: 15px;"><b>Bahan Popular</b></h3>
 
-                <div class="w3-row w3-text-white w3-large w3-text-shadow w3-center">
-                    <div class="w3-col s3 w3-display-container" style="padding: 5px;">
+                <div class="w3-row w3-text-white w3-large w3-text-shadow w3-center" style="position:static">
+                    <div class="w3-col s3 w3-display-container" style="padding: 5px; position: relative; z-index: 1;">
                         <img src="sources/index/almond.jpg" alt="" class="w3-round-large w3-hover-opacity w3-card" style="height: 150px; width: 100%; object-fit: cover;">
                         <div class="w3-display-bottomleft w3-container"><p>Kacang Almond</p></div>
                     </div>
@@ -75,7 +79,7 @@
                 <div class="w3-row w3-text-white">
                     <div class="w3-col s3" style="padding: 5px;">
                       <div class="w3-card w3-round-large w3-display-container">
-                        <img src="sources/index/chekMekMolek.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                        <img src="sources/index/chekMekMolek.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                         <div class="w3-display-bottomleft w3-container">
                             <h4>Chek Mek Molek</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -85,7 +89,7 @@
                   
                     <div class="w3-col s3" style="padding: 5px;">
                       <div class="w3-card w3-round-large w3-display-container">
-                        <img src="sources/index/kayuKeramat.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                        <img src="sources/index/kayuKeramat.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                         <div class="w3-display-bottomleft w3-container">
                             <h4>Kayu Keramat</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -95,7 +99,7 @@
                   
                     <div class="w3-col s3" style="padding: 5px;">
                       <div class="w3-card w3-round-large w3-display-container">
-                        <img src="sources/index/pulutNyior.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                        <img src="sources/index/pulutNyior.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                         <div class="w3-display-bottomleft w3-container">
                             <h4>Pulut Nyior</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -105,7 +109,7 @@
                     </div>
                     <div class="w3-col s3" style="padding: 5px;">
                         <div class="w3-card w3-round-large w3-display-container">
-                          <img src="sources/index/tokHajiSerban.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                          <img src="sources/index/tokHajiSerban.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                           <div class="w3-display-bottomleft w3-container">
                             <h4>Tok Haji Serban</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -120,7 +124,7 @@
                 <div class="w3-row w3-text-white">
                     <div class="w3-col s3" style="padding: 5px;">
                       <div class="w3-card w3-round-large w3-display-container">
-                        <img src="sources/index/chekMekMolek.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                        <img src="sources/index/chekMekMolek.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                         <div class="w3-display-bottomleft w3-container">
                             <h4>Chek Mek Molek</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -130,7 +134,7 @@
                   
                     <div class="w3-col s3" style="padding: 5px;">
                       <div class="w3-card w3-round-large w3-display-container">
-                        <img src="sources/index/kayuKeramat.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                        <img src="sources/index/kayuKeramat.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                         <div class="w3-display-bottomleft w3-container">
                             <h4>Kayu Keramat</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -140,7 +144,7 @@
                   
                     <div class="w3-col s3" style="padding: 5px;">
                       <div class="w3-card w3-round-large w3-display-container">
-                        <img src="sources/index/pulutNyior.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                        <img src="sources/index/pulutNyior.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                         <div class="w3-display-bottomleft w3-container">
                             <h4>Pulut Nyior</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -150,7 +154,7 @@
                     </div>
                     <div class="w3-col s3" style="padding: 5px;">
                         <div class="w3-card w3-round-large w3-display-container">
-                          <img src="sources/index/tokHajiSerban.jpg" class="w3-round-large" style="height: 200px; width: 300px; object-fit: cover">
+                          <img src="sources/index/tokHajiSerban.jpg" class="w3-round-large" style="height: 200px; width: 100%; object-fit: cover">
                           <div class="w3-display-bottomleft w3-container">
                             <h4>Tok Haji Serban</h4>
                             <p class="w3-small">Dari Mak Kita</p>
@@ -165,12 +169,9 @@
             
         </div>
 
-
-
-
-
-
-
-
-
-</body>
+                                </div> <!--must include in next page-->
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+        </body><!--until here-->
